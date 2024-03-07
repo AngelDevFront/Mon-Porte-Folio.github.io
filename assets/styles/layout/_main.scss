@@ -50,6 +50,12 @@ main {
         grid-template-columns: 1fr 1fr;
         gap: 100px;
 
+        @media screen and (max-width: 700px) {
+          grid-template-columns: 1fr;
+          align-items: center;
+          justify-items: auto;
+        }
+
         .Project1,
         .Project2,
         .Project3,
@@ -213,6 +219,13 @@ main {
     .reseaux-et-mail {
       display: grid;
       grid-template-columns: repeat(3, 33.33%);
+
+      @media screen and (max-width: 700px) {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-left: 70px;
+      }
+
       a {
         font-size: 1.2rem;
         margin-left: 40px;
