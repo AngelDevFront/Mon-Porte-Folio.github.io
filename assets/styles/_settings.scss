@@ -22,7 +22,7 @@ $white: white;
 @mixin alignChildren($space) {
   display: flex;
   align-items: center;
-  justify-content: $space;
+  justify-content: $space; // Vous devez préfixer avec "space-"
 }
 
 * {
