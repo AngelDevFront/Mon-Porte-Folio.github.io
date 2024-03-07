@@ -153,7 +153,6 @@ header .header-text .right-part img {
           transform: translate(-50%, -50%);
 }
 header .header-reseaux-sociaux {
-  padding-top: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,6 +173,7 @@ header .header-reseaux-sociaux {
         -ms-flex-align: center;
             align-items: center;
     gap: 20px;
+    padding-top: 250px;
   }
 }
 header .header-reseaux-sociaux a {
