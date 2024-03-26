@@ -39,4 +39,29 @@ body {
   text-align: center;
   font-family: $font2;
   background: $color1;
+  // cursor: none;
+}
+.mouse {
+  position: fixed;
+  border-radius: 1500px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+#cursor {
+  background: $color2;
+  width: 14px;
+  height: 14px;
+}
+#mouse1 {
+  height: 100px;
+  width: 100px;
+  background: $color2;
+  transition: 0.2s ease;
+}
+#mouse2 {
+  height: 200px;
+  width: 200px;
+  background: $color2;
+  transition: 0.3s ease;
 }
